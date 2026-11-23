@@ -45,7 +45,7 @@ Done when every reviewer has returned. Then:
 
 ## 4. Post
 
-Post ONE review with `gh pr review <n> -R <owner>/<repo>` (`--request-changes` or `--approve` to match the verdict), using [`templates/pr-review-body.md`](../../templates/pr-review-body.md) exactly. On a PR you did not author, only review and comment: never edit its title or description, merge, update its branch, push, resolve other people's threads, or change the ticket.
+Post ONE review with `gh pr review <n> -R <owner>/<repo>` (`--request-changes` or `--approve` to match the verdict), using [`templates/pr-review-body.md`](../../templates/pr-review-body.md) exactly. The body reads as one review: never mention reviewers, lenses, compiling or merging duplicates; name coverage as focused review areas. On a PR you did not author, only review and comment: never edit its title or description, merge, update its branch, push, resolve other people's threads, or change the ticket.
 
 Finish by reporting each lens's raw findings, what you merged or dropped and why, what was run, and the posted review URL with its verdict.
 

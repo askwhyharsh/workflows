@@ -24,10 +24,12 @@ Verdict: REQUESTED_CHANGES 🔴
    - **Brief:** at most 100 words: problem, why it matters, **Fix:** expected change.
 
 #### 🟠 Medium blockers
-- Same point format as High blockers.
+1. **Short title of the issue**
+   - Same format as High blockers.
 
 #### 🟡 Medium non-blockers
-- Same point format; recommended, not blocking.
+1. **Short title of the issue**
+   - Same format as High blockers; recommended, not blocking.
 
 #### 🟢 Low / nits
 1. **Short title** (NIT or LOW, read/reproduced/speculative)
