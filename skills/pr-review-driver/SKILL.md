@@ -49,4 +49,4 @@ Post ONE review with `gh pr review <n> -R <owner>/<repo>` (`--request-changes` o
 
 Finish by reporting each lens's raw findings, what you merged or dropped and why, what was run, and the posted review URL with its verdict.
 
-Finding format: Every finding, in every category, uses this shape: a bold title of 3 to 9 words on its own line (LOW and NIT items add "(LOW|NIT, read|reproduced|speculative)" after it); "- **Where:** <file, symbol, line>" only when a location matters; "- **Brief:** <at most 100 words: the problem, why it matters, then **Fix:** the expected change>". A blank line separates findings.
+Finding format: Every finding, in every category, uses this shape: a numbered bold title of 3 to 9 words on its own line ("1. **Title**", numbering restarts in each category, Where and Brief indented under it) (LOW and NIT items add "(LOW|NIT, read|reproduced|speculative)" after it); "- **Where:** <file, symbol, line>" only when a location matters; "- **Brief:** <at most 100 words: the problem, why it matters, then **Fix:** the expected change>". A blank line separates findings.
