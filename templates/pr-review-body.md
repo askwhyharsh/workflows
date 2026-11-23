@@ -2,7 +2,7 @@
 
 Use exactly this order. Write "None" under a heading with nothing to report. Points only, never paragraphs.
 
-Rules: main headings are `###`, category headings are `####`, emoji circles only on the verdict line and category headings, no emoji in the summary, never `#` followed by a number (GitHub links it to an unrelated issue; write "item 1"). The verdict line must match the `gh pr review` flag.
+Rules: main headings are `###`, category headings are `####`, emoji circles only on the verdict line and category headings, no emoji in the summary, never `#` followed by a number (GitHub links it to an unrelated issue; write "item 1"). The verdict line must match the `gh pr review` flag. The body never describes how the review was made: no "four independent reviews", "reviewers", "lenses", "compiled", "after merging duplicates" or "found on their own". Write it as one review; where coverage helps, name the focused review areas (for example "Review areas: design, scope and tests, security and risk, correctness") and give counts as plain totals ("0 high, 7 medium, 9 low or nit").
 
 ---
 
