@@ -19,7 +19,7 @@ Verdict: REQUESTED_CHANGES 🔴
 - Verdict reason in points: findings count by category, what the change does, what was checked, and what was not verified.
 
 #### 🔴 High blockers
-- **Short title of the issue**
+**Short title of the issue**
 - **Where:** file, symbol, line (only when relevant)
 - **Brief:** at most 100 words: problem, why it matters, **Fix:** expected change.
 
@@ -30,7 +30,7 @@ Verdict: REQUESTED_CHANGES 🔴
 - Same point format; recommended, not blocking.
 
 #### 🟢 Low / nits
-- **Short title** (NIT or LOW, read/reproduced/speculative)
+**Short title** (NIT or LOW, read/reproduced/speculative)
 - **Where:** only when relevant
 - **Brief:** at most 100 words. Optional follow-up.
 
